@@ -1,0 +1,12 @@
+[build]
+  base = "c:\Users\A1\shopping-cart"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

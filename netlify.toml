@@ -1,5 +1,5 @@
 [build]
-  base = "c:\Users\A1\shopping-cart"
+  base = "."
   command = "npm run build"
   publish = "dist"
 
